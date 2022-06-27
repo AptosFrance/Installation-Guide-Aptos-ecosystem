@@ -4,7 +4,6 @@ Par Kbconsulting45
 
 Pour éviter les problèmes, tout d'abord ouvrir tous les ports necessaires via la commande ufw :
 
-```bash
 ufw enable
 ufw allow 22
 ufw allow 6180
@@ -12,7 +11,6 @@ ufw allow 6181
 ufw allow 6182
 ufw allow 9101
 ufw allow 8080
-```
 
 Now, declare variables:
 echo "export WORKSPACE=devnet" >> $HOME/.bash_profile
